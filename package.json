@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "init": "pnpm install && npx husky install && pnpm husky add .husky/pre-commit 'pnpm run lint'",
+    "untie": "git remote rm origin",
     "lint": "eslint --ext js ./src  --fix",
     "dev": "vite --host --force",
     "build": "pnpm run lint && vite build",

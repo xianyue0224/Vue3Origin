@@ -3,3 +3,5 @@
 技术栈：Vue3+vite2+JS+Sass、JSX、postcss
 
 项目初始化：`pnpm run init`
+
+与远程仓库解绑：`pnpm run untie`

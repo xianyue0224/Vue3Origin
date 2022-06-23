@@ -20,7 +20,6 @@ specifiers:
   vue-router: ^4.0.16
 
 dependencies:
-  husky: 8.0.1
   pinia: 2.0.14_vue@3.2.37
   vue: 3.2.37
   vue-router: 4.0.16_vue@3.2.37
@@ -35,6 +34,7 @@ devDependencies:
   eslint-plugin-n: 15.2.3_eslint@8.18.0
   eslint-plugin-node: 11.1.0_eslint@8.18.0
   eslint-plugin-promise: 6.0.0_eslint@8.18.0
+  husky: 8.0.1
   postcss: 8.4.14
   postcss-nested: 5.0.6_postcss@8.4.14
   sass: 1.53.0
@@ -1561,7 +1561,7 @@ packages:
     resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
     engines: {node: '>=14'}
     hasBin: true
-    dev: false
+    dev: true
 
   /ignore/5.2.0:
     resolution: {integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==}
